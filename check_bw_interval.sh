@@ -4,7 +4,7 @@ read -p"Nhap BW(Mbps): " BW_read
 count=1
 while [ $count -ge 1 ]
 do
-printf "Chon chieu:\n1.Incoming\n2.Outgoing\n"
+printf "Chon chieu (1 hoac 2):\n1.Incoming\n2.Outgoing\n"
 read chieu
 if [ $chieu != 1 ] && [ $chieu != 2 ]
 then
