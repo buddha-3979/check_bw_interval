@@ -37,7 +37,7 @@ while [ $i -lt 1 ]
 do
 read -p"Nhap thoi gian (HH:MM) : " time1
 check2=`echo $time1 | awk -F"[:]" '{
-if( NF == 2 && $1 >= 1 && $1 <= 24 && $2 >= 1 && $2 <= 60){
+if( NF == 2 && $1 >= 0 && $1 <= 24 && $2 >= 0 && $2 <= 60){
     print "OK"
   }
 }'  
@@ -71,7 +71,7 @@ while [ $i -lt 1 ]
 do
 read -p"Nhap thoi gian (HH:MM) : " time2
 check4=`echo $time2 | awk -F"[:]" '{
-if( NF == 2 && $1 >= 1 && $1 <= 24 && $2 >= 1 && $2 <= 60){
+if( NF == 2 && $1 >= 0 && $1 <= 24 && $2 >= 0 && $2 <= 60){
     print "OK"
   }
 }'  
