@@ -1,3 +1,3 @@
-Script này dùng để check dung lượng VM download và upload trong 1 khoảng thời gian 
+Script này dùng để check bandwidth VM down và up trong 1 khoảng thời gian.
 
-Lưu ý: chạy trên node Controller và đã cài Ceilometer
+Lưu ý: chạy trên node Controller và đã cài Ceilometer.
